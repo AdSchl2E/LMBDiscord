@@ -1,6 +1,6 @@
 <?php 
 try{
-    $bdd = new PDO('mysql:host=localhost;dbname=id12643444_lmbchat', 'id12643444_lmbchat', 'ericopter67');
+    $bdd = new PDO('mysql:host=localhost;dbname=id12643444_lmbchat', 'id12643444_lmbchat', '');
 }catch (Exception $e){
     die('Erreur : ' . $e->getMessage());
 }
